@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./CSS/login.css";
 import { Button, Input, Form, notification, Spin } from "antd";
-import Logo from "../Assets/Logo.png";
+import Logo from "../Assets/SBAJ.png"
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "./HOC/Interceptor";
 
@@ -49,13 +49,12 @@ const LoginForm = () => {
         <div className="card">
           <div>
             <img
-              style={{ width: "5rem", borderRadius: "100%" }}
+              style={{ width: "10rem", }}
               src={Logo}
               alt="logo"
             />
-          </div>
-          <h2>Login</h2>
-          <Form
+            <h2 style={{marginLeft:"17px"}}>LOGIN</h2>
+          </div>          <Form
             onFinish={handleLogin}
             onFinishFailed={onFinishFailed}
             autoComplete="off"
