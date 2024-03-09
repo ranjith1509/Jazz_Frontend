@@ -1,0 +1,320 @@
+{
+    "locations": [
+        {
+            "position": [
+                33.789350,
+                74.248294
+            ],
+            "count": {
+                "entry": "12",
+                "exit": "0"
+            },
+            "content": [
+                {
+                    "id": "d782471d-190b-4f6f-a2cf-f6815f0c563f",
+                    "reason": null,
+                    "village_id": "V-013",
+                    "entry_or_exit_at": "2024-02-03T10:40:48.489Z",
+                    "entry_or_exit": "Exit",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 3"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "d782471d-190b-4f6f-a2cf-f6815f0c563f",
+                    "reason": null,
+                    "village_id": "V-013",
+                    "entry_or_exit_at": "2024-02-03T10:40:48.489Z",
+                    "entry_or_exit": "Exit",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 3"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "d782471d-190b-4f6f-a2cf-f6815f0c563f",
+                    "reason": null,
+                    "village_id": "V-013",
+                    "entry_or_exit_at": "2024-02-03T10:40:48.489Z",
+                    "entry_or_exit": "Exit",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 3"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "2eaf70d7-df7e-41c3-a39a-4c6a8d6138df",
+                    "reason": null,
+                    "village_id": "V-013",
+                    "entry_or_exit_at": "2024-02-01T10:40:48.489Z",
+                    "entry_or_exit": "Entry",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 3"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "e11d2759-1cfd-47c9-a427-1b1969303c41",
+                    "reason": null,
+                    "village_id": "V-012",
+                    "entry_or_exit_at": "2024-01-31T10:40:48.489Z",
+                    "entry_or_exit": "Exit",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 2"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "582a33b0-36af-41b0-adc9-e69105d3785f",
+                    "reason": null,
+                    "village_id": "V-012",
+                    "entry_or_exit_at": "2024-01-30T10:40:48.489Z",
+                    "entry_or_exit": "Entry",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 2"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                }
+            ]
+        },
+        {
+            "position": [
+                33.932727,
+                74.660597
+            ],
+            "count": {
+                "entry": "4",
+                "exit": "7"
+            },
+            "content": [
+                {
+                    "id": "d782471d-190b-4f6f-a2cf-f6815f0c563f",
+                    "reason": null,
+                    "village_id": "V-013",
+                    "entry_or_exit_at": "2024-02-03T10:40:48.489Z",
+                    "entry_or_exit": "Exit",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 3"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "2eaf70d7-df7e-41c3-a39a-4c6a8d6138df",
+                    "reason": null,
+                    "village_id": "V-013",
+                    "entry_or_exit_at": "2024-02-01T10:40:48.489Z",
+                    "entry_or_exit": "Entry",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 3"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "e11d2759-1cfd-47c9-a427-1b1969303c41",
+                    "reason": null,
+                    "village_id": "V-012",
+                    "entry_or_exit_at": "2024-01-31T10:40:48.489Z",
+                    "entry_or_exit": "Exit",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 2"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "582a33b0-36af-41b0-adc9-e69105d3785f",
+                    "reason": null,
+                    "village_id": "V-012",
+                    "entry_or_exit_at": "2024-01-30T10:40:48.489Z",
+                    "entry_or_exit": "Entry",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 2"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                }
+            ]
+        },
+        {
+            "position": [
+                34.135609,
+                74.177676
+            ],
+            "count": {
+                "entry": "6",
+                "exit": "1"
+            },
+            "content": [
+                {
+                    "id": "d782471d-190b-4f6f-a2cf-f6815f0c563f",
+                    "reason": null,
+                    "village_id": "V-013",
+                    "entry_or_exit_at": "2024-02-03T10:40:48.489Z",
+                    "entry_or_exit": "Exit",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 3"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "2eaf70d7-df7e-41c3-a39a-4c6a8d6138df",
+                    "reason": null,
+                    "village_id": "V-013",
+                    "entry_or_exit_at": "2024-02-01T10:40:48.489Z",
+                    "entry_or_exit": "Entry",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 3"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "e11d2759-1cfd-47c9-a427-1b1969303c41",
+                    "reason": null,
+                    "village_id": "V-012",
+                    "entry_or_exit_at": "2024-01-31T10:40:48.489Z",
+                    "entry_or_exit": "Exit",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 2"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                },
+                {
+                    "id": "582a33b0-36af-41b0-adc9-e69105d3785f",
+                    "reason": null,
+                    "village_id": "V-012",
+                    "entry_or_exit_at": "2024-01-30T10:40:48.489Z",
+                    "entry_or_exit": "Entry",
+                    "user_id": "U-003",
+                    "village": {
+                        "v_name": "Village 2"
+                    },
+                    "userInfo": {
+                        "f_name": "Asghar",
+                        "l_name": "Khan",
+                        "gender": "Male",
+                        "address": "Chairman War Council of Azad Jammu & Kashmir in 1947",
+                        "city": null,
+                        "state": null,
+                        "pincode": null
+                    }
+                }
+            ]
+        }
+    ]
+}
