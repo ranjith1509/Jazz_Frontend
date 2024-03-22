@@ -29,18 +29,20 @@ const Sidebar = () => {
   ];
 
   const handleLogout = async () => {
-    try {
-      await axiosInstance.post(
-        `${process.env.REACT_APP_BASE_URL}/admin/logout/${localStorage.getItem(
-          "userId"
-        )}`
-      );
-      notification.success({ message: "Logout successfully" });
-      localStorage.clear();
+    localStorage.clear()
       navigate("/login");
-    } catch (e) {
-      console.log(e);
-    }
+    // try {
+    //   await axiosInstance.post(
+    //     `${process.env.REACT_APP_BASE_URL}/admin/logout/${localStorage.getItem(
+    //       "userId"
+    //     )}`
+    //   );
+    //   notification.success({ message: "Logout successfully" });
+    //   localStorage.clear();
+    //   navigate("/login");
+    // } catch (e) {
+    //   console.log(e);
+    // }
   };
 
   return (

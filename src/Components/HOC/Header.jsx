@@ -46,7 +46,7 @@ const Header = () => {
               <Avatar size="large" icon={<UserOutlined />} />{" "}
               <div
                 style={{ fontSize: "18px", fontWeight: "bold" }}
-              >{`${userInfo?.firstName} ${userInfo?.lastName}`}</div>
+              >{`${userInfo?.firstName ?? "Jazz"} ${userInfo?.lastName ?? "sangam"}`}</div>
             </Space>
           </div>
         </div>

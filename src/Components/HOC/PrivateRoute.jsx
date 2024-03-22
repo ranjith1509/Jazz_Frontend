@@ -4,6 +4,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 
 const PrivateRoute = () => {
+  // let auth = true
   let auth = localStorage.getItem("auth");
 
   return (

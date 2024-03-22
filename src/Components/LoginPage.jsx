@@ -8,32 +8,47 @@ import axiosInstance from "./HOC/Interceptor";
 const LoginForm = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
-
+  const users = [
+    { email: "jazz@mail.com", password: "123" },
+    { email: "mntask", password: " 123" },
+  ];
   const handleLogin = async (values) => {
-    debugger;
-    try {
-      setLoading(true);
-      if (values?.email && values?.password) {
-        const response = await axiosInstance.post(
-          `${process.env.REACT_APP_BASE_URL}/admin/login`,
-          values
-        );
-        localStorage.setItem("auth", response?.data?.token);
-        localStorage.setItem("userId", response?.data?.data?._id);
-        notification.success({
-          message: "Login Successful",
-          description: "You have successfully logged in.",
-        });
+    console.log(values , "loi")
+    const user = users.find(
+      (user) => user.email === values.email && user.password === values.password
+    );
+    if (user) {
+      localStorage.setItem("auth" , true)
         navigate(`/`);
-      }
-    } catch (error) {
-      console.log(error);
-      notification.error({
-        message: error?.response?.data ?? error?.message,
-      });
-    } finally {
-      setLoading(false);
-    }
+  } else {
+   notification.error({
+        message: "Invalid email or password",
+      });    }
+
+    // try {
+    //   setLoading(true);
+    //   if (values?.email && values?.password) {
+    //     const response = await axiosInstance.post(
+    //       // https://jazzbackend.vercel.app/
+    //       "https://jazzbackend.vercel.app/login ",
+    //       values
+    //     );
+    //     localStorage.setItem("auth", response?.data?.token);
+    //     localStorage.setItem("userId", response?.data?.data?._id);
+    //     notification.success({
+    //       message: "Login Successful",
+    //       description: "You have successfully logged in.",
+    //     });
+    //     navigate(`/`);
+    //   }
+    // } catch (error) {
+    //   console.log(error);
+    //   notification.error({
+    //     message: error?.response?.data ?? error?.message,
+    //   });
+    // } finally {
+    //   setLoading(false);
+    // }
   };
 
   const onFinishFailed = () => {

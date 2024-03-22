@@ -44,11 +44,38 @@ const Dashboard = () => {
       setLoading(false);
     }
   };
+  const sampleData = [
+  {
+    clinicName: "Test Clinic A",
+    firstName: "CLinic",
+    lastName: "1",
+    "drname": "Dr. Baymax",
+    email: "Baymax@example.com",
+    address: "AVADI",
+    number: "12323",
+    department: "Cardiology",
+    _id: "1",
+  },
+  {
+    clinicName: "Test Clinic B",
+    firstName: "Clinic",
+    lastName: "2",
+    "drname": "Dr. Johnson",
+    email: "jane.doe@example.com",
+    address: "Marina",
+    number: "123",
+    department: "Orthopedics",
+    _id: "2",
+  },
+  // Add more sample data objects as needed
+];
+
+
 
   const columns = [
     {
-      title: "Full Name",
-      dataIndex: "fullName",
+      title: "Clinic Name",
+      dataIndex: "clinicName",
       render: (text, record) => `${record.firstName} ${record.lastName}`,
       sorter: {
         compare: (a, b) =>
@@ -59,8 +86,8 @@ const Dashboard = () => {
       },
     },
     {
-      title: "Age",
-      dataIndex: "age",
+      title: "Dr Name",
+      dataIndex: "drname",
       sorter: {
         compare: (a, b) => a.age - b.age,
         multiple: 7,
@@ -71,8 +98,8 @@ const Dashboard = () => {
       dataIndex: "email",
     },
     {
-      title: "Gender",
-      dataIndex: "gender",
+      title: "Address",
+      dataIndex: "address",
     },
     {
       title: "Number",
@@ -118,6 +145,79 @@ const Dashboard = () => {
       ),
     },
   ];
+  // const columns = [
+  //   {
+  //     title: "Full Name",
+  //     dataIndex: "fullName",
+  //     render: (text, record) => `${record.firstName} ${record.lastName}`,
+  //     sorter: {
+  //       compare: (a, b) =>
+  //         (a.firstName + " " + a.lastName).localeCompare(
+  //           b.firstName + " " + b.lastName
+  //         ),
+  //       multiple: 5,
+  //     },
+  //   },
+  //   {
+  //     title: "Age",
+  //     dataIndex: "age",
+  //     sorter: {
+  //       compare: (a, b) => a.age - b.age,
+  //       multiple: 7,
+  //     },
+  //   },
+  //   {
+  //     title: "Email",
+  //     dataIndex: "email",
+  //   },
+  //   {
+  //     title: "Gender",
+  //     dataIndex: "gender",
+  //   },
+  //   {
+  //     title: "Number",
+  //     dataIndex: "number",
+  //   },
+  //   {
+  //     title: "Department",
+  //     dataIndex: "department",
+  //     sorter: {
+  //       compare: (a, b) => a.department.localeCompare(b.department),
+  //       multiple: 3,
+  //     },
+  //   },
+  //   // {
+  //   //   title: "Percentage",
+  //   //   dataIndex: "percentage",
+  //   //   sorter: {
+  //   //     compare: (a, b) => a.percentage - b.percentage,
+  //   //     multiple: 2,
+  //   //   },
+  //   // },
+  //   // {
+  //   //   title: "No. of Arrears",
+  //   //   dataIndex: "arrears_count",
+  //   //   sorter: {
+  //   //     compare: (a, b) => a.arrears_count - b.arrears_count,
+  //   //     multiple: 1,
+  //   //   },
+  //   // },
+  //   {
+  //     title: "Action",
+  //     dataIndex: "action",
+  //     render: (text, record) => (
+  //       <span style={{ display: "flex", gap: "10px" }}>
+  //         <p className="edit" onClick={() => handleEdit(record)}>
+  //           Edit
+  //         </p>
+  //         <span className="ant-divider" />
+  //         <p className="delete" onClick={() => handleDelete(record._id)}>
+  //           Delete
+  //         </p>
+  //       </span>
+  //     ),
+  //   },
+  // ];
 
   const handleEdit = (record) => {
     setEdit({ ...edit, status: true, data: record?._id });
@@ -287,7 +387,8 @@ const Dashboard = () => {
         <Table
           className="mt-5"
           columns={columns}
-          dataSource={data?.users}
+          // dataSource={data?.users}
+          dataSource={sampleData}
           onChange={onChange}
           pagination={false}
         />
